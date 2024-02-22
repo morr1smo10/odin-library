@@ -8,6 +8,7 @@ body {
 
 .containers {
   width: 80%;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
