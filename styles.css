@@ -25,3 +25,7 @@ body {
   padding-right: 20px;
   padding-bottom: 16px;
 }
+
+.remove_btn {
+  float: right;
+}
