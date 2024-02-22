@@ -45,6 +45,10 @@ function display() {
     temp_book_readed.classList.add('readed_btn');
     temp_book_readed.setAttribute('id', "readed_btn" + i);
     temp_book.appendChild(temp_book_readed);
+    temp_book_readed.addEventListener("click", () => {
+      myLibrary[i].readed = !myLibrary[i].readed;
+      display();
+    })
 
     var temp_book_remove = document.createElement('button');
     temp_book_remove.textContent = "Remove";
