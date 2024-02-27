@@ -1,9 +1,21 @@
+/*
 function Book(title, author, pages, readed) {
   // the constructor...
   this.title = title;
   this.author = author;
   this.pages = pages;
   this.readed = readed;
+}
+*/
+
+// class instead of factory method
+class Book {
+  constructor (title, author, pages, readed) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
+    this.readed = readed;
+  }
 }
 
 const myLibrary = [
